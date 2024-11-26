@@ -1,10 +1,26 @@
 * {
     font-family: Verdana, "Open Sans", sans-serif;
-    margin:10px 20px;
+    margin: 0;
+}
+
+.hero-container {
+    background-color: gold;
+    margin: 0 auto;
+}
+
+.hero-elements {
+    padding: 20px auto;
+    margin-left: 50px;
 }
 
 .title {
     margin: 20px 0;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 1100px;
 }
 
 .navbar ul li {
@@ -18,7 +34,8 @@
 
 .image {
     width: 500px;
-    height: auto;
+    height: 500px;
+    display: block;
 }
 
 .home-button {
