@@ -35,10 +35,36 @@
 .image {
     width: 500px;
     height: 500px;
-    display: block;
 }
 
 .home-button {
     font-size: 30px;
     font-weight: bold;
+    display: block;
+    margin-left: 20px;
+}
+
+.recipe-head {
+    margin: 20px;
+    float:left;
+}
+
+.recipe-info {
+    display: inline-block;
+}
+
+.recipe-info h2,.recipe-info h3,.recipe-info ol,.recipe-info ul {
+    margin: 10px 0;
+}
+
+.recipe-title {
+    margin: 20px;
+}
+
+.title{
+    text-decoration: none;
+}
+
+a.title:visited {
+    color: black;
 }
